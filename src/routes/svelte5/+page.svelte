@@ -3,6 +3,7 @@
 	import RenderChildComponent from './RenderChildComponent.svelte';
 	import State from './State.svelte';
 	import AutoComplete from './AutoComplete.svelte';
+	import UseStore from './UseStore.svelte';
 
 	let items = [{ name: 'Adam' }, { name: 'Rich' }];
 	let onSelect = (item: { name: string }) => {
@@ -19,4 +20,8 @@
 	<hr />
 
 	<NumberInfo />
+
+	<hr />
+
+	<UseStore />
 </div>
